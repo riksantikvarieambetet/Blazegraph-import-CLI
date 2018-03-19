@@ -95,7 +95,7 @@ def confirm_imports_from_dir(path, sparql_endpoint):
 @click.option('--endpoint', default='http://172.17.0.1:9999/blazegraph/', help='The endpoint of your Blazegraph instance.')
 @click.option('--namespace', default='kb', help='The Blazegraph namespace you want to import into.')
 @click.option('--rdfs', type=click.Path(exists=True), help='The path to your RDF files.')
-@click.option('--urls', type=click.File('r'), help='The path to your list of urls.')
+@click.option('--urls', type=click.File('r'), help='The path to your list of URLs.')
 def start(endpoint, namespace, rdfs=False, urls=False):
     click.secho('Validating given arguments...', fg='yellow')
 
