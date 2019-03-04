@@ -1,6 +1,6 @@
 # Blazegraph import CLI
 
-Command line interface for importing RDF files to Blazegraph from the client file system or a list of URLs.
+Command line interface for importing RDF files to Blazegraph from the client file system or a list of URLs. This is built on top of Blazegraphs REST API if you have access to its batch import tools use that instead.
 
 ## Prerequirements
 
